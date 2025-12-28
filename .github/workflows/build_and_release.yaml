@@ -2,9 +2,9 @@ name: Build and release Aseprite
 
 on:
   push:
-分支:
-    - main
-  paths:
+    branches:
+      - main
+    paths:
       - 'BuildLog.md'
   workflow_dispatch:
 env:
